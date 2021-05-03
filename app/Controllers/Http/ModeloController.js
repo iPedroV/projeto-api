@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with modelos
  */
+ const Modelo = use('App/Models/Modelo')
+
 class ModeloController {
   /**
    * Show a list of all modelos.
@@ -18,6 +20,8 @@ class ModeloController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+
+    return Modelo.all()
   }
 
   /**

@@ -7,6 +7,7 @@
 /**
  * Resourceful controller for interacting with marcas
  */
+ const Marca = use('App/Models/Marca')
 class MarcaController {
   /**
    * Show a list of all marcas.
@@ -18,6 +19,7 @@ class MarcaController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+    return Marca.all()
   }
 
   /**

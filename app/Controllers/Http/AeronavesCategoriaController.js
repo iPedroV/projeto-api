@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with aeronavescategorias
  */
+ const AeronavesCategoria = use('App/Models/AeronavesCategoria')
+
 class AeronavesCategoriaController {
   /**
    * Show a list of all aeronavescategorias.
@@ -18,6 +20,7 @@ class AeronavesCategoriaController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+    return AeronavesCategoria.all()
   }
 
   /**

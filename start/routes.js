@@ -19,3 +19,13 @@ const Route = use('Route')
 Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
+
+Route.resource('/aeronave', 'AeronaveController').apiOnly()
+Route.resource('/aeronavesCategoria', 'AeronavesCategoriaController').apiOnly()
+Route.resource('/aeroporto', 'AeroportoController').apiOnly()
+Route.resource('/categoria', 'CategoriaController').apiOnly()
+Route.resource('/cliente', 'ClienteController').apiOnly()
+Route.resource('/estado', 'EstadoController').apiOnly()
+Route.resource('/frete', 'FreteController').apiOnly()
+Route.resource('/marca', 'MarcaController').apiOnly()
+Route.resource('/modelo', 'ModeloController').apiOnly()

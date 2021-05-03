@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with estados
  */
+ const Estado = use('App/Models/Estado')
+
 class EstadoController {
   /**
    * Show a list of all estados.
@@ -18,6 +20,7 @@ class EstadoController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+    return Estado.all()
   }
 
   /**

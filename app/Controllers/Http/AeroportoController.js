@@ -7,6 +7,9 @@
 /**
  * Resourceful controller for interacting with aeroportos
  */
+
+ const Aeroporto = use('App/Models/Aeroporto')
+
 class AeroportoController {
   /**
    * Show a list of all aeroportos.
@@ -18,6 +21,8 @@ class AeroportoController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+
+    return Aeroporto.all()
   }
 
   /**

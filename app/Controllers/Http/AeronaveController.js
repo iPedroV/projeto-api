@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with aeronaves
  */
+ const Aeronave = use('App/Models/Aeronave')
+
 class AeronaveController {
   /**
    * Show a list of all aeronaves.
@@ -18,6 +20,7 @@ class AeronaveController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+    return Aeronave.all()
   }
 
   /**

@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with clientes
  */
+ const Cliente = use('App/Models/Cliente')
+
 class ClienteController {
   /**
    * Show a list of all clientes.
@@ -18,6 +20,8 @@ class ClienteController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+return Cliente.all()
+
   }
 
   /**

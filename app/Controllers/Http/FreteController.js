@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with fretes
  */
+
+ const Frete = use('App/Models/Frete')
 class FreteController {
   /**
    * Show a list of all fretes.
@@ -18,6 +20,7 @@ class FreteController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
+    return Frete.all()
   }
 
   /**
