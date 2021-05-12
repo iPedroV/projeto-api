@@ -58,6 +58,7 @@ class AeroportoController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await Aeroporto.findOrFail(params.id);
   }
 
   /**

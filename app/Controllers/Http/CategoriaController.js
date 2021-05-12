@@ -34,6 +34,7 @@ return Categoria.all()
    * @param {View} ctx.view
    */
   async create ({ request, response, view }) {
+    
   }
 
   /**
@@ -57,6 +58,7 @@ return Categoria.all()
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await Categoria.findOrFail(params.id);
   }
 
   /**

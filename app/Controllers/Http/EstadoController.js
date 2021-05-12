@@ -56,6 +56,7 @@ class EstadoController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await Estado.findOrFail(params.id);
   }
 
   /**

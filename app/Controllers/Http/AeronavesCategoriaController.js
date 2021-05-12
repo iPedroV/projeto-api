@@ -56,6 +56,7 @@ class AeronavesCategoriaController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await AeronavesCategoria.findOrFail(params.id);
   }
 
   /**

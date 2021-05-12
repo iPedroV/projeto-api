@@ -55,6 +55,7 @@ class MarcaController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await Marca.findOrFail(params.id);
   }
 
   /**

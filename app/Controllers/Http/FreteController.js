@@ -56,6 +56,7 @@ class FreteController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+    return await Frete.findOrFail(params.id);
   }
 
   /**
