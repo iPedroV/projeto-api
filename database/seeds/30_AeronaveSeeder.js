@@ -41,7 +41,7 @@ class AeronaveSeeder {
       },
 
       {
-        nome: "Aibus A220-100",
+        nome: "Airbus A220-100",
         capacidade: 125,
         autonomia: 5460,
         horas_voo: 475020,
@@ -52,7 +52,7 @@ class AeronaveSeeder {
         marca_id: 1,
       },
       {
-        nome: "Aibus A220-300",
+        nome: "Airbus A220-300",
         capacidade: 160,
         autonomia: 5920,
         horas_voo: 515040,
