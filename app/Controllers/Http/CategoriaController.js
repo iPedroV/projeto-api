@@ -20,7 +20,8 @@ class CategoriaController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-return Categoria.all()
+    const {page, perPage} = request.all()
+    return Categoria.query().paginate(page, perPage)
 
   }
 

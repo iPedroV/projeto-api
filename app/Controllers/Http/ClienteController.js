@@ -20,7 +20,8 @@ class ClienteController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-return Cliente.all()
+    const {page, perPage} = request.all()
+    return Cliente.query().paginate(page, perPage)
 
   }
 

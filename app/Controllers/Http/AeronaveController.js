@@ -20,7 +20,8 @@ class AeronaveController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-    return Aeronave.all()
+    const {page, perPage} = request.all()
+    return Aeronave.query().paginate(page, perPage)
   }
 
   /**

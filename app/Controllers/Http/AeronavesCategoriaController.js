@@ -20,7 +20,8 @@ class AeronavesCategoriaController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-    return AeronavesCategoria.all()
+    const {page, perPage} = request.all()
+    return AeronavesCategoria.query().paginate(page, perPage)
   }
 
   /**

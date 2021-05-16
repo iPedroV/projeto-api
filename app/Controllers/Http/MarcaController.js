@@ -19,7 +19,8 @@ class MarcaController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-    return Marca.all()
+    const {page, perPage} = request.all()
+    return Marca.query().paginate(page, perPage)
   }
 
   /**
