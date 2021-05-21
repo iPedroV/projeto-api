@@ -26,7 +26,7 @@ class AeronaveSeeder {
         fabricacao: "1974-04-15",
         ultima_revisao: "2001-10-23",
         modelo_id: 1,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "AirBus A310 (Airbus A300B100)",
@@ -37,7 +37,7 @@ class AeronaveSeeder {
         fabricacao: "1982-04-03",
         ultima_revisao: "2002-02-12",
         modelo_id: 2,
-        marca_id: 1,
+        fabricante_id: 1,
       },
 
       {
@@ -49,7 +49,7 @@ class AeronaveSeeder {
         fabricacao: "1985-07-20",
         ultima_revisao: "1992-06-29",
         modelo_id: 3,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Aibus A220-300",
@@ -60,7 +60,7 @@ class AeronaveSeeder {
         fabricacao: "1986-04-10",
         ultima_revisao: "2008-11-10",
         modelo_id: 4,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A318",
@@ -71,7 +71,7 @@ class AeronaveSeeder {
         fabricacao: "2001-11-23",
         ultima_revisao: "2015-10-23",
         modelo_id: 5,
-        marca_id: 1,
+        fabricante_id: 1,
       },
 
       {
@@ -83,7 +83,7 @@ class AeronaveSeeder {
         fabricacao: "1994-06-01",
         ultima_revisao: "2005-06-30",
         modelo_id: 6,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A320",
@@ -94,7 +94,7 @@ class AeronaveSeeder {
         fabricacao: "1984-03-01",
         ultima_revisao: "2006-10-23",
         modelo_id: 7,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A321",
@@ -105,7 +105,7 @@ class AeronaveSeeder {
         fabricacao: "1988-11-24",
         ultima_revisao: "2011-10-25",
         modelo_id: 8,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A330",
@@ -116,7 +116,7 @@ class AeronaveSeeder {
         fabricacao: "1992-10-14",
         ultima_revisao: "2015-07-01",
         modelo_id: 9,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A340",
@@ -127,7 +127,7 @@ class AeronaveSeeder {
         fabricacao: "1995-02-10",
         ultima_revisao: "2016-05-01",
         modelo_id: 10,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A350",
@@ -138,7 +138,7 @@ class AeronaveSeeder {
         fabricacao: "2016-05-20",
         ultima_revisao: "2019-10-25",
         modelo_id: 11,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Airbus A380",
@@ -149,7 +149,7 @@ class AeronaveSeeder {
         fabricacao: "2005-01-18",
         ultima_revisao: "2020-01-30",
         modelo_id: 12,
-        marca_id: 1,
+        fabricante_id: 1,
       },
       {
         nome: "Antonov An-24",
@@ -160,7 +160,7 @@ class AeronaveSeeder {
         fabricacao: "1958-12-25",
         ultima_revisao: "1990-12-10",
         modelo_id: 13,
-        marca_id: 2,
+        fabricante_id: 2,
       },
       {
         nome: "Antonov An-28",
@@ -171,7 +171,7 @@ class AeronaveSeeder {
         fabricacao: "1986-10-01",
         ultima_revisao: "1995-10-12",
         modelo_id: 14,
-        marca_id: 2,
+        fabricante_id: 2,
       },
       {
         nome: "Antonov An-38",
@@ -182,7 +182,7 @@ class AeronaveSeeder {
         fabricacao: "1994-01-02",
         ultima_revisao: "2005-10-30",
         modelo_id: 15,
-        marca_id: 2,
+        fabricante_id: 2,
       },
       {
         nome: "Antonov An-140",
@@ -193,7 +193,7 @@ class AeronaveSeeder {
         fabricacao: "1997-12-10",
         ultima_revisao: "2006-10-10",
         modelo_id: 16,
-        marca_id: 2,
+        fabricante_id: 2,
       },
       {
         nome: "Antonov An-148",
@@ -204,7 +204,7 @@ class AeronaveSeeder {
         fabricacao: "2004-10-05",
         ultima_revisao: "2010-11-26",
         modelo_id: 17,
-        marca_id: 2,
+        fabricante_id: 2,
       },
       {
         nome: "ATR 42",
@@ -215,7 +215,7 @@ class AeronaveSeeder {
         fabricacao: "1981-03-10",
         ultima_revisao: "1996-10-16",
         modelo_id: 18,
-        marca_id: 3,
+        fabricante_id: 3,
       },
       {
         nome: "ATR 72",
@@ -226,7 +226,7 @@ class AeronaveSeeder {
         fabricacao: "1988-09-10",
         ultima_revisao: "2020-11-29",
         modelo_id: 19,
-        marca_id: 3,
+        fabricante_id: 3,
       },
       {
         nome: "BAe 146-300 / Avro RJ100",
@@ -237,7 +237,7 @@ class AeronaveSeeder {
         fabricacao: "1981-09-01",
         ultima_revisao: "2006-09-09",
         modelo_id: 20,
-        marca_id: 4,
+        fabricante_id: 4,
       },
       {
         nome: "Boeing 247",
@@ -248,7 +248,7 @@ class AeronaveSeeder {
         fabricacao: "1932-12-01",
         ultima_revisao: "1980-02-06",
         modelo_id: 21,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 307 Stratoliner",
@@ -259,7 +259,7 @@ class AeronaveSeeder {
         fabricacao: "1938-12-01",
         ultima_revisao: "1988-05-22",
         modelo_id: 22,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 307 Stratocruiser",
@@ -270,7 +270,7 @@ class AeronaveSeeder {
         fabricacao: "1947-09-20",
         ultima_revisao: "1999-11-03",
         modelo_id: 23,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 707",
@@ -281,7 +281,7 @@ class AeronaveSeeder {
         fabricacao: "1953-05-05",
         ultima_revisao: "1999-06-01",
         modelo_id: 24,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 717",
@@ -292,7 +292,7 @@ class AeronaveSeeder {
         fabricacao: "1988-06-10",
         ultima_revisao: "2005-10-20",
         modelo_id: 25,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 720",
@@ -303,7 +303,7 @@ class AeronaveSeeder {
         fabricacao: "1960-07-05",
         ultima_revisao: "1990-10-15",
         modelo_id: 26,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 727",
@@ -314,7 +314,7 @@ class AeronaveSeeder {
         fabricacao: "1960-12-05",
         ultima_revisao: "1999-10-16",
         modelo_id: 27,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-100",
@@ -325,7 +325,7 @@ class AeronaveSeeder {
         fabricacao: "1968-02-01",
         ultima_revisao: "2005-10-03",
         modelo_id: 28,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-200",
@@ -336,7 +336,7 @@ class AeronaveSeeder {
         fabricacao: "1968-10-01",
         ultima_revisao: "2019-01-20",
         modelo_id: 29,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-300",
@@ -347,7 +347,7 @@ class AeronaveSeeder {
         fabricacao: "1970-01-06",
         ultima_revisao: "2015-05-05",
         modelo_id: 30,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-400",
@@ -358,7 +358,7 @@ class AeronaveSeeder {
         fabricacao: "1988-01-26",
         ultima_revisao: "2015-05-12",
         modelo_id: 31,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-500",
@@ -369,7 +369,7 @@ class AeronaveSeeder {
         fabricacao: "1995-10-06",
         ultima_revisao: "2016-02-22",
         modelo_id: 32,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-600",
@@ -380,7 +380,7 @@ class AeronaveSeeder {
         fabricacao: "1999-12-20",
         ultima_revisao: "2010-02-02",
         modelo_id: 33,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-700",
@@ -391,7 +391,7 @@ class AeronaveSeeder {
         fabricacao: "1993-11-01",
         ultima_revisao: "2016-03-20",
         modelo_id: 34,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-800",
@@ -402,7 +402,7 @@ class AeronaveSeeder {
         fabricacao: "1997-12-01",
         ultima_revisao: "2010-10-23",
         modelo_id: 35,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-900ER",
@@ -413,7 +413,7 @@ class AeronaveSeeder {
         fabricacao: "1998-09-25",
         ultima_revisao: "2018-05-03",
         modelo_id: 36,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-7Max",
@@ -424,7 +424,7 @@ class AeronaveSeeder {
         fabricacao: "1998-01-29",
         ultima_revisao: "2013-06-01",
         modelo_id: 37,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-8MAX",
@@ -435,7 +435,7 @@ class AeronaveSeeder {
         fabricacao: "2016-01-06",
         ultima_revisao: "2020-05-12",
         modelo_id: 38,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-9MAX",
@@ -446,7 +446,7 @@ class AeronaveSeeder {
         fabricacao: "2017-02-25",
         ultima_revisao: "2020-09-29",
         modelo_id: 39,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 737-10MAX",
@@ -457,7 +457,7 @@ class AeronaveSeeder {
         fabricacao: "2018-06-16",
         ultima_revisao: "2020-04-25",
         modelo_id: 40,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747 100",
@@ -468,7 +468,7 @@ class AeronaveSeeder {
         fabricacao: "1969-02-09",
         ultima_revisao: "2018-10-05",
         modelo_id: 41,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747 SP",
@@ -479,7 +479,7 @@ class AeronaveSeeder {
         fabricacao: "1970-04-06",
         ultima_revisao: "2019-12-01",
         modelo_id: 42,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747-200",
@@ -490,7 +490,7 @@ class AeronaveSeeder {
         fabricacao: "1980-02-09",
         ultima_revisao: "2018-11-08",
         modelo_id: 43,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747-300",
@@ -501,7 +501,7 @@ class AeronaveSeeder {
         fabricacao: "1989-09-12",
         ultima_revisao: "2010-05-26",
         modelo_id: 44,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747-400",
@@ -512,7 +512,7 @@ class AeronaveSeeder {
         fabricacao: "1990-01-06",
         ultima_revisao: "2002-03-09",
         modelo_id: 45,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 747-8",
@@ -523,7 +523,7 @@ class AeronaveSeeder {
         fabricacao: "1995-02-28",
         ultima_revisao: "2017-09-27",
         modelo_id: 46,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 757-200",
@@ -534,7 +534,7 @@ class AeronaveSeeder {
         fabricacao: "1996-05-29",
         ultima_revisao: "2010-07-16",
         modelo_id: 47,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 757-300",
@@ -545,7 +545,7 @@ class AeronaveSeeder {
         fabricacao: "1989-01-07",
         ultima_revisao: "2003-06-14",
         modelo_id: 48,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 767-200",
@@ -556,7 +556,7 @@ class AeronaveSeeder {
         fabricacao: "1992-05-31",
         ultima_revisao: "2000-05-27",
         modelo_id: 49,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 767-200ER",
@@ -567,7 +567,7 @@ class AeronaveSeeder {
         fabricacao: "1976-03-26",
         ultima_revisao: "2019-07-30",
         modelo_id: 50,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 767-300ER",
@@ -578,7 +578,7 @@ class AeronaveSeeder {
         fabricacao: "1992-07-08",
         ultima_revisao: "2010-11-29",
         modelo_id: 51,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 767-400ER",
@@ -589,7 +589,7 @@ class AeronaveSeeder {
         fabricacao: "1985-07-26",
         ultima_revisao: "2004-04-19",
         modelo_id: 52,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-200",
@@ -600,7 +600,7 @@ class AeronaveSeeder {
         fabricacao: "2002-01-10",
         ultima_revisao: "2019-06-22",
         modelo_id: 53,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-200ER",
@@ -611,7 +611,7 @@ class AeronaveSeeder {
         fabricacao: "2005-01-04",
         ultima_revisao: "2018-07-27",
         modelo_id: 54,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-300",
@@ -622,7 +622,7 @@ class AeronaveSeeder {
         fabricacao: "1983-07-04",
         ultima_revisao: "2016-07-24",
         modelo_id: 55,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-200LR",
@@ -633,7 +633,7 @@ class AeronaveSeeder {
         fabricacao: "1989-07-17",
         ultima_revisao: "2002-08-06",
         modelo_id: 56,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-300ER",
@@ -644,7 +644,7 @@ class AeronaveSeeder {
         fabricacao: "2007-10-28",
         ultima_revisao: "2017-09-09",
         modelo_id: 57,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-8X",
@@ -655,7 +655,7 @@ class AeronaveSeeder {
         fabricacao: "1986-08-22",
         ultima_revisao: "2007-06-24",
         modelo_id: 58,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 777-9X",
@@ -666,7 +666,7 @@ class AeronaveSeeder {
         fabricacao: "1982-04-11",
         ultima_revisao: "2008-09-29",
         modelo_id: 59,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 787-8",
@@ -677,7 +677,7 @@ class AeronaveSeeder {
         fabricacao: "1962-02-12",
         ultima_revisao: "2004-07-30",
         modelo_id: 60,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 787-9",
@@ -688,7 +688,7 @@ class AeronaveSeeder {
         fabricacao: "1977-05-03",
         ultima_revisao: "2008-02-11",
         modelo_id: 61,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Boeing 787-10",
@@ -699,7 +699,7 @@ class AeronaveSeeder {
         fabricacao: "1977-03-20",
         ultima_revisao: "2016-09-27",
         modelo_id: 62,
-        marca_id: 5,
+        fabricante_id: 5,
       },
       {
         nome: "Bombardier CRJ-700",
@@ -710,7 +710,7 @@ class AeronaveSeeder {
         fabricacao: "1992-10-19",
         ultima_revisao: "2010-05-15",
         modelo_id: 63,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier CRJ-900",
@@ -721,7 +721,7 @@ class AeronaveSeeder {
         fabricacao: "1999-06-11",
         ultima_revisao: "2003-03-30",
         modelo_id: 64,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier CRJ-1000",
@@ -732,7 +732,7 @@ class AeronaveSeeder {
         fabricacao: "1991-10-31",
         ultima_revisao: "2012-07-22",
         modelo_id: 65,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier Dash 8-100",
@@ -743,7 +743,7 @@ class AeronaveSeeder {
         fabricacao: "1997-09-28",
         ultima_revisao: "2011-05-23",
         modelo_id: 66,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier Dash 8-200",
@@ -754,7 +754,7 @@ class AeronaveSeeder {
         fabricacao: "1980-01-04",
         ultima_revisao: "2002-03-24",
         modelo_id: 67,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier Dash 8-300",
@@ -765,7 +765,7 @@ class AeronaveSeeder {
         fabricacao: "1983-07-28",
         ultima_revisao: "2016-02-11",
         modelo_id: 68,
-        marca_id: 6,
+        fabricante_id: 6,
       },
       {
         nome: "Bombardier Dash 8-400",
@@ -776,7 +776,7 @@ class AeronaveSeeder {
         fabricacao: "1995-01-15",
         ultima_revisao: "2012-01-17",
         modelo_id: 69,
-        marca_id: 6,
+        fabricante_id: 6,
       },
 
       {
@@ -788,7 +788,7 @@ class AeronaveSeeder {
         fabricacao: "1989-12-18",
         ultima_revisao: "2011-06-19",
         modelo_id: 70,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 120",
@@ -799,7 +799,7 @@ class AeronaveSeeder {
         fabricacao: "1989-06-16",
         ultima_revisao: "2017-07-04",
         modelo_id: 71,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 140",
@@ -810,7 +810,7 @@ class AeronaveSeeder {
         fabricacao: "1984-06-14",
         ultima_revisao: "2012-09-06",
         modelo_id: 72,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 150",
@@ -821,7 +821,7 @@ class AeronaveSeeder {
         fabricacao: "2000-01-07",
         ultima_revisao: "2010-04-29",
         modelo_id: 73,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 152",
@@ -832,7 +832,7 @@ class AeronaveSeeder {
         fabricacao: "1974-11-07",
         ultima_revisao: "2008-02-18",
         modelo_id: 74,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 162 Skycatcher",
@@ -843,7 +843,7 @@ class AeronaveSeeder {
         fabricacao: "1973-12-14",
         ultima_revisao: "2008-10-11",
         modelo_id: 75,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 165 Airmaster",
@@ -854,7 +854,7 @@ class AeronaveSeeder {
         fabricacao: "1996-07-15",
         ultima_revisao: "2003-06-11",
         modelo_id: 76,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 172 Skyhawk",
@@ -865,7 +865,7 @@ class AeronaveSeeder {
         fabricacao: "1982-11-05",
         ultima_revisao: "2018-02-27",
         modelo_id: 77,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 175 Skylark",
@@ -876,7 +876,7 @@ class AeronaveSeeder {
         fabricacao: "1986-05-04",
         ultima_revisao: "2020-09-25",
         modelo_id: 78,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 177 Cardinal",
@@ -887,7 +887,7 @@ class AeronaveSeeder {
         fabricacao: "2000-07-25",
         ultima_revisao: "2007-03-29",
         modelo_id: 79,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 180 Skywagon",
@@ -898,7 +898,7 @@ class AeronaveSeeder {
         fabricacao: "2001-03-22",
         ultima_revisao: "2009-05-01",
         modelo_id: 80,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 182 Skylane",
@@ -909,7 +909,7 @@ class AeronaveSeeder {
         fabricacao: "1986-05-26",
         ultima_revisao: "2005-01-17",
         modelo_id: 81,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 185 Skywagon",
@@ -920,7 +920,7 @@ class AeronaveSeeder {
         fabricacao: "1997-01-17",
         ultima_revisao: "2018-08-26",
         modelo_id: 82,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 190",
@@ -931,7 +931,7 @@ class AeronaveSeeder {
         fabricacao: "2002-01-09",
         ultima_revisao: "2010-07-12",
         modelo_id: 83,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 195",
@@ -942,7 +942,7 @@ class AeronaveSeeder {
         fabricacao: "1988-02-28",
         ultima_revisao: "2008-03-25",
         modelo_id: 84,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 205 Super Skywagon",
@@ -953,7 +953,7 @@ class AeronaveSeeder {
         fabricacao: "1997-08-16",
         ultima_revisao: "2002-05-27",
         modelo_id: 85,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 206 Station air",
@@ -964,7 +964,7 @@ class AeronaveSeeder {
         fabricacao: "1988-11-07",
         ultima_revisao: "2019-12-11",
         modelo_id: 86,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 210 Centurion",
@@ -975,7 +975,7 @@ class AeronaveSeeder {
         fabricacao: "2003-12-06",
         ultima_revisao: "2017-02-15",
         modelo_id: 87,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 303",
@@ -986,7 +986,7 @@ class AeronaveSeeder {
         fabricacao: "1984-12-21",
         ultima_revisao: "2015-01-05",
         modelo_id: 88,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 310",
@@ -997,7 +997,7 @@ class AeronaveSeeder {
         fabricacao: "1988-04-26",
         ultima_revisao: "2014-05-31",
         modelo_id: 89,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 320 Skynight",
@@ -1008,7 +1008,7 @@ class AeronaveSeeder {
         fabricacao: "2001-05-03",
         ultima_revisao: "2015-02-17",
         modelo_id: 90,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 335",
@@ -1019,7 +1019,7 @@ class AeronaveSeeder {
         fabricacao: "1992-06-11",
         ultima_revisao: "2015-03-23",
         modelo_id: 91,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 337",
@@ -1030,7 +1030,7 @@ class AeronaveSeeder {
         fabricacao: "1976-08-04",
         ultima_revisao: "2005-12-07",
         modelo_id: 92,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 350 Corvalis",
@@ -1041,7 +1041,7 @@ class AeronaveSeeder {
         fabricacao: "1970-12-23",
         ultima_revisao: "2003-03-24",
         modelo_id: 93,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 400 Corvalis TT",
@@ -1052,7 +1052,7 @@ class AeronaveSeeder {
         fabricacao: "1994-02-01",
         ultima_revisao: "2017-11-20",
         modelo_id: 94,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 402",
@@ -1063,7 +1063,7 @@ class AeronaveSeeder {
         fabricacao: "1995-05-31",
         ultima_revisao: "2017-08-19",
         modelo_id: 95,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 404",
@@ -1074,7 +1074,7 @@ class AeronaveSeeder {
         fabricacao: "1994-09-07",
         ultima_revisao: "2018-05-06",
         modelo_id: 96,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 406",
@@ -1085,7 +1085,7 @@ class AeronaveSeeder {
         fabricacao: "1988-08-04",
         ultima_revisao: "2010-01-18",
         modelo_id: 97,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 411",
@@ -1096,7 +1096,7 @@ class AeronaveSeeder {
         fabricacao: "1988-12-08",
         ultima_revisao: "2020-03-17",
         modelo_id: 98,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 414",
@@ -1107,7 +1107,7 @@ class AeronaveSeeder {
         fabricacao: "1994-02-03",
         ultima_revisao: "1999-06-19",
         modelo_id: 99,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 421",
@@ -1118,7 +1118,7 @@ class AeronaveSeeder {
         fabricacao: "1995-08-22",
         ultima_revisao: "2014-08-16",
         modelo_id: 100,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 425",
@@ -1129,7 +1129,7 @@ class AeronaveSeeder {
         fabricacao: "1998-04-19",
         ultima_revisao: "2006-06-27",
         modelo_id: 101,
-        marca_id: 7,
+        fabricante_id: 7,
       },
       {
         nome: "Cessna 441",
@@ -1140,7 +1140,7 @@ class AeronaveSeeder {
         fabricacao: "1993-11-02",
         ultima_revisao: "2011-03-28",
         modelo_id: 102,
-        marca_id: 7,
+        fabricante_id: 7,
       },
 
       {
@@ -1152,7 +1152,7 @@ class AeronaveSeeder {
         fabricacao: "1983-08-04",
         ultima_revisao: "2004-05-26",
         modelo_id: 103,
-        marca_id: 8,
+        fabricante_id: 8,
       },
       {
         nome: "Comac C919",
@@ -1163,7 +1163,7 @@ class AeronaveSeeder {
         fabricacao: "1995-11-01",
         ultima_revisao: "2004-07-16",
         modelo_id: 104,
-        marca_id: 8,
+        fabricante_id: 8,
       },
 
       {
@@ -1175,7 +1175,7 @@ class AeronaveSeeder {
         fabricacao: "1994-04-19",
         ultima_revisao: "2010-10-28",
         modelo_id: 105,
-        marca_id: 9,
+        fabricante_id: 9,
       },
 
       {
@@ -1187,7 +1187,7 @@ class AeronaveSeeder {
         fabricacao: "2000-06-02",
         ultima_revisao: "2012-09-19",
         modelo_id: 106,
-        marca_id: 10,
+        fabricante_id: 10,
       },
       {
         nome: "Donier Do-328",
@@ -1198,7 +1198,7 @@ class AeronaveSeeder {
         fabricacao: "1991-07-31",
         ultima_revisao: "2017-11-21",
         modelo_id: 107,
-        marca_id: 10,
+        fabricante_id: 10,
       },
 
       {
@@ -1210,7 +1210,7 @@ class AeronaveSeeder {
         fabricacao: "1978-05-07",
         ultima_revisao: "2018-10-22",
         modelo_id: 108,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-3",
@@ -1221,7 +1221,7 @@ class AeronaveSeeder {
         fabricacao: "1974-05-06",
         ultima_revisao: "2020-03-06",
         modelo_id: 109,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-4",
@@ -1232,7 +1232,7 @@ class AeronaveSeeder {
         fabricacao: "1978-06-20",
         ultima_revisao: "2018-01-09",
         modelo_id: 110,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-6",
@@ -1243,7 +1243,7 @@ class AeronaveSeeder {
         fabricacao: "1989-08-15",
         ultima_revisao: "2020-02-04",
         modelo_id: 111,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-7",
@@ -1254,7 +1254,7 @@ class AeronaveSeeder {
         fabricacao: "1992-05-07",
         ultima_revisao: "1996-10-04",
         modelo_id: 112,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-10",
@@ -1265,7 +1265,7 @@ class AeronaveSeeder {
         fabricacao: "1987-02-14",
         ultima_revisao: "2006-04-30",
         modelo_id: 113,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-20",
@@ -1276,7 +1276,7 @@ class AeronaveSeeder {
         fabricacao: "2000-11-01",
         ultima_revisao: "2012-01-28",
         modelo_id: 114,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-30",
@@ -1287,7 +1287,7 @@ class AeronaveSeeder {
         fabricacao: "1975-01-30",
         ultima_revisao: "2007-03-09",
         modelo_id: 115,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-40",
@@ -1298,7 +1298,7 @@ class AeronaveSeeder {
         fabricacao: "1976-11-15",
         ultima_revisao: "1992-02-01",
         modelo_id: 116,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-50",
@@ -1309,7 +1309,7 @@ class AeronaveSeeder {
         fabricacao: "1981-05-02",
         ultima_revisao: "1991-06-30",
         modelo_id: 117,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-61",
@@ -1320,7 +1320,7 @@ class AeronaveSeeder {
         fabricacao: "1982-12-10",
         ultima_revisao: "2014-01-01",
         modelo_id: 118,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-62",
@@ -1331,7 +1331,7 @@ class AeronaveSeeder {
         fabricacao: "1984-09-07",
         ultima_revisao: "2001-11-23",
         modelo_id: 119,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-8-63",
@@ -1342,7 +1342,7 @@ class AeronaveSeeder {
         fabricacao: "1991-01-31",
         ultima_revisao: "2011-08-17",
         modelo_id: 120,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-9-15",
@@ -1353,7 +1353,7 @@ class AeronaveSeeder {
         fabricacao: "1989-10-12",
         ultima_revisao: "2015-05-05",
         modelo_id: 121,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-9-21",
@@ -1364,7 +1364,7 @@ class AeronaveSeeder {
         fabricacao: "1998-12-11",
         ultima_revisao: "2010-08-19",
         modelo_id: 122,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-9-32",
@@ -1375,7 +1375,7 @@ class AeronaveSeeder {
         fabricacao: "1998-04-09",
         ultima_revisao: "2014-03-21",
         modelo_id: 123,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-9-41",
@@ -1386,7 +1386,7 @@ class AeronaveSeeder {
         fabricacao: "1999-01-09",
         ultima_revisao: "2020-03-05",
         modelo_id: 124,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-9-51",
@@ -1397,7 +1397,7 @@ class AeronaveSeeder {
         fabricacao: "2000-12-31",
         ultima_revisao: "2016-06-24",
         modelo_id: 125,
-        marca_id: 11,
+        fabricante_id: 11,
       },
       {
         nome: "Douglas DC-10",
@@ -1408,7 +1408,7 @@ class AeronaveSeeder {
         fabricacao: "1997-04-09",
         ultima_revisao: "2007-04-11",
         modelo_id: 126,
-        marca_id: 11,
+        fabricante_id: 11,
       },
 
       {
@@ -1420,7 +1420,7 @@ class AeronaveSeeder {
         fabricacao: "1994-03-27",
         ultima_revisao: "2009-12-04",
         modelo_id: 127,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer ERJ-145",
@@ -1431,7 +1431,7 @@ class AeronaveSeeder {
         fabricacao: "1990-05-11",
         ultima_revisao: "2015-06-07",
         modelo_id: 128,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer ERJ-170",
@@ -1442,7 +1442,7 @@ class AeronaveSeeder {
         fabricacao: "1989-03-16",
         ultima_revisao: "2009-02-01",
         modelo_id: 129,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer ERJ-175",
@@ -1453,7 +1453,7 @@ class AeronaveSeeder {
         fabricacao: "1991-01-25",
         ultima_revisao: "2019-07-18",
         modelo_id: 130,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer 175-E2",
@@ -1464,7 +1464,7 @@ class AeronaveSeeder {
         fabricacao: "1983-06-10",
         ultima_revisao: "2008-01-25",
         modelo_id: 131,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer ERJ-190",
@@ -1475,7 +1475,7 @@ class AeronaveSeeder {
         fabricacao: "1984-08-26",
         ultima_revisao: "2012-09-25",
         modelo_id: 132,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer 190-E2",
@@ -1486,7 +1486,7 @@ class AeronaveSeeder {
         fabricacao: "1991-07-26",
         ultima_revisao: "2006-06-24",
         modelo_id: 133,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer ERJ-195",
@@ -1497,7 +1497,7 @@ class AeronaveSeeder {
         fabricacao: "1991-01-20",
         ultima_revisao: "2007-06-19",
         modelo_id: 134,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer 195-E2",
@@ -1508,7 +1508,7 @@ class AeronaveSeeder {
         fabricacao: "1992-07-06",
         ultima_revisao: "2006-09-07",
         modelo_id: 135,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer EMB-110 Bandeirante",
@@ -1519,7 +1519,7 @@ class AeronaveSeeder {
         fabricacao: "2004-09-16",
         ultima_revisao: "2012-11-24",
         modelo_id: 136,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "EMB-120 Brasilia",
@@ -1530,7 +1530,7 @@ class AeronaveSeeder {
         fabricacao: "1989-04-29",
         ultima_revisao: "2018-02-20",
         modelo_id: 137,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer EMB-121 Xingu",
@@ -1541,7 +1541,7 @@ class AeronaveSeeder {
         fabricacao: "1997-08-28",
         ultima_revisao: "2018-11-30",
         modelo_id: 138,
-        marca_id: 12,
+        fabricante_id: 12,
       },
       {
         nome: "Embraer CBA-123 Vector",
@@ -1552,7 +1552,7 @@ class AeronaveSeeder {
         fabricacao: "1993-12-01",
         ultima_revisao: "2001-07-09",
         modelo_id: 139,
-        marca_id: 12,
+        fabricante_id: 12,
       },
 
       {
@@ -1564,7 +1564,7 @@ class AeronaveSeeder {
         fabricacao: "2007-04-13",
         ultima_revisao: "2011-05-18",
         modelo_id: 140,
-        marca_id: 13,
+        fabricante_id: 13,
       },
       {
         nome: "Fokker F28",
@@ -1575,7 +1575,7 @@ class AeronaveSeeder {
         fabricacao: "2002-03-02",
         ultima_revisao: "2007-06-13",
         modelo_id: 141,
-        marca_id: 13,
+        fabricante_id: 13,
       },
       {
         nome: "Fokker F50",
@@ -1586,7 +1586,7 @@ class AeronaveSeeder {
         fabricacao: "1983-08-01",
         ultima_revisao: "2002-01-07",
         modelo_id: 142,
-        marca_id: 13,
+        fabricante_id: 13,
       },
       {
         nome: "Fokker F70",
@@ -1597,7 +1597,7 @@ class AeronaveSeeder {
         fabricacao: "1992-10-22",
         ultima_revisao: "2006-10-29",
         modelo_id: 143,
-        marca_id: 13,
+        fabricante_id: 13,
       },
       {
         nome: "Fokker F100",
@@ -1608,7 +1608,7 @@ class AeronaveSeeder {
         fabricacao: "1991-09-16",
         ultima_revisao: "2018-07-14",
         modelo_id: 144,
-        marca_id: 13,
+        fabricante_id: 13,
       },
 
       {
@@ -1620,7 +1620,7 @@ class AeronaveSeeder {
         fabricacao: "1980-03-20",
         ultima_revisao: "2020-01-21",
         modelo_id: 145,
-        marca_id: 14,
+        fabricante_id: 14,
       },
       {
         nome: "Trident 1E",
@@ -1631,7 +1631,7 @@ class AeronaveSeeder {
         fabricacao: "2001-04-01",
         ultima_revisao: "2004-02-07",
         modelo_id: 146,
-        marca_id: 14,
+        fabricante_id: 14,
       },
       {
         nome: "Trident 2E",
@@ -1642,7 +1642,7 @@ class AeronaveSeeder {
         fabricacao: "1986-10-23",
         ultima_revisao: "2016-01-19",
         modelo_id: 147,
-        marca_id: 14,
+        fabricante_id: 14,
       },
       {
         nome: "Trident 3B",
@@ -1653,7 +1653,7 @@ class AeronaveSeeder {
         fabricacao: "1991-11-06",
         ultima_revisao: "2013-10-12",
         modelo_id: 148,
-        marca_id: 14,
+        fabricante_id: 14,
       },
 
       {
@@ -1665,7 +1665,7 @@ class AeronaveSeeder {
         fabricacao: "1986-06-08",
         ultima_revisao: "2011-04-06",
         modelo_id: 149,
-        marca_id: 15,
+        fabricante_id: 15,
       },
 
       {
@@ -1677,7 +1677,7 @@ class AeronaveSeeder {
         fabricacao: "1996-11-26",
         ultima_revisao: "2009-08-12",
         modelo_id: 150,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-14",
@@ -1688,7 +1688,7 @@ class AeronaveSeeder {
         fabricacao: "2004-12-20",
         ultima_revisao: "2019-03-06",
         modelo_id: 151,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-62",
@@ -1699,7 +1699,7 @@ class AeronaveSeeder {
         fabricacao: "1984-01-06",
         ultima_revisao: "2017-09-05",
         modelo_id: 152,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-86",
@@ -1710,7 +1710,7 @@ class AeronaveSeeder {
         fabricacao: "2002-11-17",
         ultima_revisao: "2013-09-14",
         modelo_id: 153,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-96-300",
@@ -1721,7 +1721,7 @@ class AeronaveSeeder {
         fabricacao: "1991-11-29",
         ultima_revisao: "2015-09-26",
         modelo_id: 154,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-96M",
@@ -1732,7 +1732,7 @@ class AeronaveSeeder {
         fabricacao: "2008-08-22",
         ultima_revisao: "2009-07-25",
         modelo_id: 155,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-96-400",
@@ -1743,7 +1743,7 @@ class AeronaveSeeder {
         fabricacao: "1987-10-30",
         ultima_revisao: "2015-08-16",
         modelo_id: 156,
-        marca_id: 16,
+        fabricante_id: 16,
       },
       {
         nome: "Ilyushin IL-114",
@@ -1754,7 +1754,7 @@ class AeronaveSeeder {
         fabricacao: "1992-12-09",
         ultima_revisao: "2013-03-29",
         modelo_id: 157,
-        marca_id: 16,
+        fabricante_id: 16,
       },
 
       {
@@ -1766,7 +1766,7 @@ class AeronaveSeeder {
         fabricacao: "1982-07-30",
         ultima_revisao: "2007-01-19",
         modelo_id: 158,
-        marca_id: 17,
+        fabricante_id: 17,
       },
       {
         nome: "Lockheed L-1011-200",
@@ -1777,7 +1777,7 @@ class AeronaveSeeder {
         fabricacao: "2003-01-28",
         ultima_revisao: "2006-01-29",
         modelo_id: 159,
-        marca_id: 17,
+        fabricante_id: 17,
       },
       {
         nome: "Lockheed L-1011-500",
@@ -1788,7 +1788,7 @@ class AeronaveSeeder {
         fabricacao: "1992-11-24",
         ultima_revisao: "2010-01-28",
         modelo_id: 160,
-        marca_id: 17,
+        fabricante_id: 17,
       },
       {
         nome: "Lockheed L-188 Electra",
@@ -1799,7 +1799,7 @@ class AeronaveSeeder {
         fabricacao: "1990-03-12",
         ultima_revisao: "2012-03-04",
         modelo_id: 161,
-        marca_id: 17,
+        fabricante_id: 17,
       },
       {
         nome: "Lockheed L-10 Electra",
@@ -1810,7 +1810,7 @@ class AeronaveSeeder {
         fabricacao: "1999-07-20",
         ultima_revisao: "2000-08-03",
         modelo_id: 162,
-        marca_id: 17,
+        fabricante_id: 17,
       },
 
       {
@@ -1822,7 +1822,7 @@ class AeronaveSeeder {
         fabricacao: "2003-03-17",
         ultima_revisao: "2010-07-18",
         modelo_id: 163,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-11",
@@ -1833,7 +1833,7 @@ class AeronaveSeeder {
         fabricacao: "1988-11-10",
         ultima_revisao: "2010-11-21",
         modelo_id: 164,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-81",
@@ -1844,7 +1844,7 @@ class AeronaveSeeder {
         fabricacao: "1996-02-08",
         ultima_revisao: "2002-12-08",
         modelo_id: 165,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-82",
@@ -1855,7 +1855,7 @@ class AeronaveSeeder {
         fabricacao: "1980-08-11",
         ultima_revisao: "2009-11-17",
         modelo_id: 166,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-83",
@@ -1866,7 +1866,7 @@ class AeronaveSeeder {
         fabricacao: "1997-10-25",
         ultima_revisao: "2015-03-19",
         modelo_id: 167,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-87",
@@ -1877,7 +1877,7 @@ class AeronaveSeeder {
         fabricacao: "2001-09-11",
         ultima_revisao: "2005-10-06",
         modelo_id: 168,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-90-30",
@@ -1888,7 +1888,7 @@ class AeronaveSeeder {
         fabricacao: "2001-11-10",
         ultima_revisao: "2016-01-02",
         modelo_id: 169,
-        marca_id: 18,
+        fabricante_id: 18,
       },
       {
         nome: "McDonnell Douglas MD-90-30ER",
@@ -1899,7 +1899,7 @@ class AeronaveSeeder {
         fabricacao: "1990-07-06",
         ultima_revisao: "2004-05-08",
         modelo_id: 170,
-        marca_id: 18,
+        fabricante_id: 18,
       },
 
       {
@@ -1911,7 +1911,7 @@ class AeronaveSeeder {
         fabricacao: "2000-01-23",
         ultima_revisao: "2005-03-01",
         modelo_id: 171,
-        marca_id: 19,
+        fabricante_id: 19,
       },
 
       {
@@ -1923,7 +1923,7 @@ class AeronaveSeeder {
         fabricacao: "1998-02-06",
         ultima_revisao: "2016-02-02",
         modelo_id: 172,
-        marca_id: 20,
+        fabricante_id: 20,
       },
 
       {
@@ -1935,7 +1935,7 @@ class AeronaveSeeder {
         fabricacao: "1993-12-28",
         ultima_revisao: "2002-08-31",
         modelo_id: 173,
-        marca_id: 21,
+        fabricante_id: 21,
       },
 
       {
@@ -1947,7 +1947,7 @@ class AeronaveSeeder {
         fabricacao: "1998-04-28",
         ultima_revisao: "2013-01-07",
         modelo_id: 174,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-114",
@@ -1958,7 +1958,7 @@ class AeronaveSeeder {
         fabricacao: "1990-05-09",
         ultima_revisao: "2016-06-21",
         modelo_id: 175,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-124",
@@ -1969,7 +1969,7 @@ class AeronaveSeeder {
         fabricacao: "1989-03-17",
         ultima_revisao: "2015-01-13",
         modelo_id: 176,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-134",
@@ -1980,7 +1980,7 @@ class AeronaveSeeder {
         fabricacao: "1993-11-07",
         ultima_revisao: "2007-11-04",
         modelo_id: 177,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-144",
@@ -1991,7 +1991,7 @@ class AeronaveSeeder {
         fabricacao: "1990-10-14",
         ultima_revisao: "2020-03-09",
         modelo_id: 178,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-154",
@@ -2002,7 +2002,7 @@ class AeronaveSeeder {
         fabricacao: "1989-03-23",
         ultima_revisao: "2004-07-07",
         modelo_id: 179,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-204",
@@ -2013,7 +2013,7 @@ class AeronaveSeeder {
         fabricacao: "1991-05-23",
         ultima_revisao: "2008-01-31",
         modelo_id: 180,
-        marca_id: 22,
+        fabricante_id: 22,
       },
       {
         nome: "Tupolev TU-334",
@@ -2024,7 +2024,7 @@ class AeronaveSeeder {
         fabricacao: "1984-04-04",
         ultima_revisao: "2001-06-03",
         modelo_id: 181,
-        marca_id: 22,
+        fabricante_id: 22,
       },
 
       {
@@ -2036,7 +2036,7 @@ class AeronaveSeeder {
         fabricacao: "1999-04-08",
         ultima_revisao: "2015-07-21",
         modelo_id: 182,
-        marca_id: 23,
+        fabricante_id: 23,
       },
       {
         nome: "Vickers Viscont",
@@ -2047,7 +2047,7 @@ class AeronaveSeeder {
         fabricacao: "1994-05-06",
         ultima_revisao: "2019-12-03",
         modelo_id: 183,
-        marca_id: 23,
+        fabricante_id: 23,
       },
       {
         nome: "Vickers Vanguard",
@@ -2058,7 +2058,7 @@ class AeronaveSeeder {
         fabricacao: "1987-01-06",
         ultima_revisao: "2018-11-26",
         modelo_id: 184,
-        marca_id: 23,
+        fabricante_id: 23,
       },
       {
         nome: "Vickers VC-10",
@@ -2069,7 +2069,7 @@ class AeronaveSeeder {
         fabricacao: "1980-10-07",
         ultima_revisao: "2014-07-06",
         modelo_id: 185,
-        marca_id: 23,
+        fabricante_id: 23,
       },
 
       {
@@ -2081,7 +2081,7 @@ class AeronaveSeeder {
         fabricacao: "1987-12-22",
         ultima_revisao: "2002-10-08",
         modelo_id: 189,
-        marca_id: 24,
+        fabricante_id: 24,
       },
 
       {
@@ -2093,7 +2093,7 @@ class AeronaveSeeder {
         fabricacao: "1995-11-15",
         ultima_revisao: "2019-06-17",
         modelo_id: 187,
-        marca_id: 25,
+        fabricante_id: 25,
       },
       {
         nome: "Yakolev Yak-42",
@@ -2104,10 +2104,10 @@ class AeronaveSeeder {
         fabricacao: "2001-10-11",
         ultima_revisao: "2007-09-05",
         modelo_id: 188,
-        marca_id: 25,
+        fabricante_id: 25,
       },
 
-      //{ nome: "EXTRA",capacidade:, autonomia:,horas_voo:, valor: , fabricacao:"", ultima_revisao:"",modelo_id:, marca_id:},
+      //{ nome: "EXTRA",capacidade:, autonomia:,horas_voo:, valor: , fabricacao:"", ultima_revisao:"",modelo_id:, fabricante_id:},
     ]);
   }
 }
