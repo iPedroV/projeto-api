@@ -15,7 +15,7 @@ class AeronavesSchema extends Schema {
       table.date('fabricacao').notNullable()
       table.date('ultima_revisao').notNullable()
       table.integer('modelo_id').references('id').inTable('modelos').unsigned().notNullable()
-      table.integer('marca_id').references('id').inTable('marcas').unsigned().notNullable()
+      table.integer('fabricante_id').references('id').inTable('fabricantes').unsigned().notNullable()
       table.timestamps()
     })
   }
