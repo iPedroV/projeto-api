@@ -21,7 +21,8 @@ class ModeloController {
    */
   async index ({ request, response, view }) {
 
-    return Modelo.all()
+    const {page, perPage} = request.all()
+    return Modelo.query().paginate(page, perPage)
   }
 
   /**

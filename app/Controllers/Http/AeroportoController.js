@@ -22,7 +22,8 @@ class AeroportoController {
    */
   async index ({ request, response, view }) {
 
-    return Aeroporto.all()
+    const {page, perPage} = request.all()
+    return Aeroporto.query().paginate(page, perPage)
   }
 
   /**

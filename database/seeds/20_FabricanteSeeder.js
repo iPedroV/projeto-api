@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| MarcaSeeder
+| FabricanteSeeder
 |--------------------------------------------------------------------------
 |
 | Make use of the Factory instance to seed database with dummy data or
@@ -12,10 +12,10 @@
 
 /** @type {import('@adonisjs/lucid/src/Factory')} */
 const Factory = use("Factory");
-const Marca = use("App/Models/Marca");
-class MarcaSeeder {
+const Fabricante = use("App/Models/Fabricante");
+class FabricanteSeeder {
   async run() {
-    await Marca.createMany([
+    await Fabricante.createMany([
       { nome: "AIRBUS" },
       { nome: "ANTONOV" },
       { nome: "ATR" },
@@ -45,4 +45,4 @@ class MarcaSeeder {
   }
 }
 
-module.exports = MarcaSeeder;
+module.exports = FabricanteSeeder;

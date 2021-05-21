@@ -20,7 +20,8 @@ class FreteController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-    return Frete.all()
+    const {page, perPage} = request.all()
+    return Frete.query().paginate(page, perPage)
   }
 
   /**

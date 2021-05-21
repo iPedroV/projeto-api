@@ -20,12 +20,54 @@ Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
 
-Route.resource('/aeronave', 'AeronaveController').apiOnly()
-Route.resource('/aeronavesCategoria', 'AeronavesCategoriaController').apiOnly()
-Route.resource('/aeroporto', 'AeroportoController').apiOnly()
-Route.resource('/categoria', 'CategoriaController').apiOnly()
-Route.resource('/cliente', 'ClienteController').apiOnly()
-Route.resource('/estado', 'EstadoController').apiOnly()
-Route.resource('/frete', 'FreteController').apiOnly()
-Route.resource('/marca', 'MarcaController').apiOnly()
-Route.resource('/modelo', 'ModeloController').apiOnly()
+Route.resource('/aeronave', 'AeronaveController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'aeronave'],
+    ]))
+
+Route.resource('/aeronavesCategoria', 'AeronavesCategoriaController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'aeronavesCategoria'],
+    ]))
+
+Route.resource('/aeroporto', 'AeroportoController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'aeroporto'],
+    ]))
+Route.resource('/categoria', 'CategoriaController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'categoria'],
+    ]))
+
+Route.resource('/cliente', 'ClienteController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'cliente'],
+    ]))
+Route.resource('/estado', 'EstadoController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'estado'],
+    ]))
+
+Route.resource('/frete', 'FreteController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'frete'],
+    ]))
+
+Route.resource('/fabricante', 'FabricanteController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'fabricante'],
+    ]))
+
+Route.resource('/modelo', 'ModeloController')
+     .apiOnly()
+     .validator(new Map([
+      [['store', 'update'], 'modelo'],
+    ]))

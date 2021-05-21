@@ -20,7 +20,8 @@ class EstadoController {
    * @param {View} ctx.view
    */
   async index ({ request, response, view }) {
-    return Estado.all()
+    const {page, perPage} = request.all()
+    return Estado.query().paginate(page, perPage)
   }
 
   /**
