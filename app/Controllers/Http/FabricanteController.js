@@ -5,13 +5,13 @@
 /** @typedef {import('@adonisjs/framework/src/View')} View */
 
 /**
- * Resourceful controller for interacting with marcas
+ * Resourceful controller for interacting with fabricantes
  */
- const Marca = use('App/Models/Marca')
-class MarcaController {
+ const Fabricante = use('App/Models/Fabricante')
+class FabricanteController {
   /**
-   * Show a list of all marcas.
-   * GET marcas
+   * Show a list of all fabricantes.
+   * GET fabricantes
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -20,12 +20,12 @@ class MarcaController {
    */
   async index ({ request, response, view }) {
     const {page, perPage} = request.all()
-    return Marca.query().paginate(page, perPage)
+    return Fabricante.query().paginate(page, perPage)
   }
 
   /**
-   * Render a form to be used for creating a new marca.
-   * GET marcas/create
+   * Render a form to be used for creating a new fabricante.
+   * GET fabricantes/create
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -36,8 +36,8 @@ class MarcaController {
   }
 
   /**
-   * Create/save a new marca.
-   * POST marcas
+   * Create/save a new fabricante.
+   * POST fabricantes
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -47,8 +47,8 @@ class MarcaController {
   }
 
   /**
-   * Display a single marca.
-   * GET marcas/:id
+   * Display a single fabricante.
+   * GET fabricantes/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -56,12 +56,12 @@ class MarcaController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Marca.findOrFail(params.id);
+    return await Fabricante.findOrFail(params.id);
   }
 
   /**
-   * Render a form to update an existing marca.
-   * GET marcas/:id/edit
+   * Render a form to update an existing fabricante.
+   * GET fabricantes/:id/edit
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -72,8 +72,8 @@ class MarcaController {
   }
 
   /**
-   * Update marca details.
-   * PUT or PATCH marcas/:id
+   * Update fabricante details.
+   * PUT or PATCH fabricantes/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -83,8 +83,8 @@ class MarcaController {
   }
 
   /**
-   * Delete a marca with id.
-   * DELETE marcas/:id
+   * Delete a fabricante with id.
+   * DELETE fabricantes/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -94,4 +94,4 @@ class MarcaController {
   }
 }
 
-module.exports = MarcaController
+module.exports = FabricanteController

@@ -60,10 +60,10 @@ Route.resource('/frete', 'FreteController')
       [['store', 'update'], 'frete'],
     ]))
 
-Route.resource('/marca', 'MarcaController')
+Route.resource('/fabricante', 'FabricanteController')
      .apiOnly()
      .validator(new Map([
-      [['store', 'update'], 'marca'],
+      [['store', 'update'], 'fabricante'],
     ]))
 
 Route.resource('/modelo', 'ModeloController')

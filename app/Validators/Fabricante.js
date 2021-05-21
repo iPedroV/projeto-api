@@ -2,7 +2,7 @@
 
 const ValidatorAbstract = use('App/Validators/ValidatorAbstract')
 
-class Marca extends ValidatorAbstract {
+class Fabricante extends ValidatorAbstract {
   get rules () {
     return {
       nome: 'required|max:45',
@@ -13,5 +13,5 @@ class Marca extends ValidatorAbstract {
   }
 }
 
-module.exports = Marca
+module.exports = Fabricante
 
