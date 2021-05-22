@@ -4,6 +4,14 @@
 const Model = use('Model')
 
 class Estado extends Model {
+
+    aeroportos(){
+        return this.hasMany('App/Models/Aeroporto')
+    }
+
+    static getCamposEstado(){
+        return ['nome', 'uf' ]
+    }
 }
 
 module.exports = Estado
