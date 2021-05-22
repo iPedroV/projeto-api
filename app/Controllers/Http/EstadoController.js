@@ -45,6 +45,8 @@ class EstadoController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposEstado()
   }
 
   /**
@@ -57,7 +59,9 @@ class EstadoController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Estado.findOrFail(params.id);
+    //return await Estado.findOrFail(params.id);
+
+    return await Estado.query().with('aeroportos').where('id', params.id).first()
   }
 
   /**
@@ -81,6 +85,8 @@ class EstadoController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposEstado()
   }
 
   /**

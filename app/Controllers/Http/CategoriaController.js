@@ -47,6 +47,8 @@ class CategoriaController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposCategoria()
   }
 
   /**
@@ -59,7 +61,9 @@ class CategoriaController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Categoria.findOrFail(params.id);
+    //return await Categoria.findOrFail(params.id);
+
+    return await Categoria.query().with('aeronaves').where('id', params.id).first()
   }
 
   /**
@@ -83,6 +87,8 @@ class CategoriaController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposCategoria()
   }
 
   /**

@@ -45,6 +45,8 @@ class FreteController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposFrete()
   }
 
   /**
@@ -57,7 +59,14 @@ class FreteController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Frete.findOrFail(params.id);
+    //return await Frete.findOrFail(params.id);
+
+    return await Frete.query()
+                      .with('cliente')
+                      .with('aeronave')
+                      //.with('aeroporto_ida') COM PROBLEMA
+                      //.with('aeroporto_volta') COM PROBLEMA
+                      .where('id', params.id).first()
   }
 
   /**
@@ -81,6 +90,8 @@ class FreteController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposFrete()
   }
 
   /**
