@@ -64,8 +64,8 @@ class FreteController {
     return await Frete.query()
                       .with('cliente')
                       .with('aeronave')
-                      //.with('aeroporto_ida') COM PROBLEMA
-                      //.with('aeroporto_volta') COM PROBLEMA
+                      .with('aeroporto_partida') 
+                      .with('aeroporto_destino')
                       .where('id', params.id).first()
   }
 

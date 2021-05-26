@@ -65,7 +65,8 @@ class AeroportoController {
 
     return await Aeroporto.query()
                           .with('estado')
-                          //.with('fretes') COM PROBLEMA
+                          .with('fretes_partida')
+                          .with('fretes_destino')
                           .where('id', params.id).first()
   }
 

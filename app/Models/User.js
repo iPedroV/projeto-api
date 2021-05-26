@@ -7,6 +7,15 @@ const Model = use('Model')
 const Hash = use('Hash')
 
 class User extends Model {
+
+  static getCamposUser(){
+    return [
+      'username', 
+      'email', 
+      'password'
+    ]
+  }
+  
   static boot () {
     super.boot()
 

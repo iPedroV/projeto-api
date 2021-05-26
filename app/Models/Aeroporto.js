@@ -9,12 +9,19 @@ class Aeroporto extends Model {
         return this.belongsTo('App/Models/Estado')
     }
 
-    /*fretes(){
-        return this.hasMany('App/Models/Frete') COM PROBLEMA
-    }*/
+    fretes_partida(){
+        return this.hasMany('App/Models/Frete', 'id', 'aeroporto_partida_id')
+    }
+
+    fretes_destino(){
+        return this.hasMany('App/Models/Frete', 'id', 'aeroporto_destino_id')
+    }
 
     static getCamposAeroporto(){
-        return ['nome', 'estado_id' ]
+        return [
+            'nome', 
+            'estado_id' 
+        ]
     }
 }
 

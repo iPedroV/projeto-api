@@ -10,7 +10,9 @@ class Categoria extends Model {
     }
 
     static getCamposCategoria(){
-        return ['tipo_aeronave']
+        return [
+            'tipo_aeronave'
+        ]
     }
 }
 

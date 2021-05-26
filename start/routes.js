@@ -20,6 +20,13 @@ Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
 
+
+Route.resource('/users', 'UserController').apiOnly()
+
+Route.post('/token', 'UserController.token')
+
+Route.group(() => {
+
 Route.resource('/aeronave', 'AeronaveController')
      .apiOnly()
      .validator(new Map([
@@ -71,3 +78,5 @@ Route.resource('/modelo', 'ModeloController')
      .validator(new Map([
       [['store', 'update'], 'modelo'],
     ]))
+
+}).middleware('auth')
