@@ -98,6 +98,8 @@ class EstadoController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const estado = await Estado.findOrFail(params.id)
+    return await estado.delete()
   }
 }
 

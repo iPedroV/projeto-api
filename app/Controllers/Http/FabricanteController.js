@@ -97,6 +97,9 @@ class FabricanteController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const fabricante = await Fabricante.findOrFail(params.id)
+
+    return await fabricante.delete()
   }
 }
 

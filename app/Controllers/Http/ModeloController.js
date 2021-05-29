@@ -99,6 +99,9 @@ class ModeloController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const modelo = await Modelo.findOrFail(params.id)
+
+    return await modelo.delete()
   }
 }
 

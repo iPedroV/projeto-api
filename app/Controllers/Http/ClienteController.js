@@ -99,7 +99,10 @@ class ClienteController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
-  }
+    const cliente = await Cliente.findOrFail(params.id)
+
+    return await cliente.delete()
+  }  
 }
 
 module.exports = ClienteController

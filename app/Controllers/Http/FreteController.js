@@ -103,6 +103,9 @@ class FreteController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const frete = await Frete.findOrFail(params.id)
+
+    return await frete.delete()
   }
 }
 

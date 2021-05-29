@@ -100,6 +100,9 @@ class CategoriaController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const categoria = await Categoria.findOrFail(params.id)
+
+    return await categoria.delete()
   }
 }
 

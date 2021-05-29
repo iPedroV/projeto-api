@@ -104,6 +104,8 @@ class AeroportoController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const aeroporto = await Aeroporto.findOrFail(params.id)
+    return await aeroporto.delete()
   }
 }
 

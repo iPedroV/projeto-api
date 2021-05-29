@@ -25,7 +25,7 @@ Route.resource('/users', 'UserController').apiOnly()
 
 Route.post('/token', 'UserController.token')
 
-Route.group(() => {
+//Route.group(() => {
 
 Route.resource('/aeronave', 'AeronaveController')
      .apiOnly()
@@ -79,4 +79,4 @@ Route.resource('/modelo', 'ModeloController')
       [['store', 'update'], 'modelo'],
     ]))
 
-}).middleware('auth')
+//}).middleware('auth')
