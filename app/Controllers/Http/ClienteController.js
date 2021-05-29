@@ -46,6 +46,8 @@ class ClienteController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposCliente()
   }
 
   /**
@@ -58,7 +60,9 @@ class ClienteController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Cliente.findOrFail(params.id);
+    //return await Cliente.findOrFail(params.id);
+
+    return await Cliente.query().with('fretes').where('id', params.id).first()
   }
 
   /**
@@ -82,6 +86,8 @@ class ClienteController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposCliente()
   }
 
   /**
@@ -93,7 +99,10 @@ class ClienteController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
-  }
+    const cliente = await Cliente.findOrFail(params.id)
+
+    return await cliente.delete()
+  }  
 }
 
 module.exports = ClienteController

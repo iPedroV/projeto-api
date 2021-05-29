@@ -47,6 +47,8 @@ class AeroportoController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposAeroporto()
   }
 
   /**
@@ -59,7 +61,13 @@ class AeroportoController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Aeroporto.findOrFail(params.id);
+    //return await Aeroporto.findOrFail(params.id);
+
+    return await Aeroporto.query()
+                          .with('estado')
+                          .with('fretes_partida')
+                          .with('fretes_destino')
+                          .where('id', params.id).first()
   }
 
   /**
@@ -83,6 +91,8 @@ class AeroportoController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposAeroporto()
   }
 
   /**
@@ -94,6 +104,8 @@ class AeroportoController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const aeroporto = await Aeroporto.findOrFail(params.id)
+    return await aeroporto.delete()
   }
 }
 

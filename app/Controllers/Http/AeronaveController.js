@@ -45,6 +45,8 @@ class AeronaveController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposAeronave()
   }
 
   /**
@@ -57,7 +59,15 @@ class AeronaveController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Aeronave.findOrFail(params.id);
+    //return await Aeronave.findOrFail(params.id);
+
+    return await Aeronave.query()
+                         .with('fretes')
+                         .with('modelo')
+                         .with('fabricante')
+                         .with('categorias')
+                         .where('id', params.id)
+                         .first()
   }
 
   /**
@@ -81,6 +91,8 @@ class AeronaveController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados!
+    //getCamposAeronave()
   }
 
   /**
@@ -92,6 +104,11 @@ class AeronaveController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+
+    const aeronave = await Aeronave.findOrFail(params.id)
+
+    return await aeronave.delete()
+
   }
 }
 

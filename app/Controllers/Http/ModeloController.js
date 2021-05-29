@@ -46,6 +46,8 @@ class ModeloController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposModelo()
   }
 
   /**
@@ -58,7 +60,9 @@ class ModeloController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Modelo.findOrFail(params.id);
+    //return await Modelo.findOrFail(params.id);
+
+    return await Modelo.query().with('aeronaves').where('id', params.id).first()
   }
 
   /**
@@ -82,6 +86,8 @@ class ModeloController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposModelo()
   }
 
   /**
@@ -93,6 +99,9 @@ class ModeloController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const modelo = await Modelo.findOrFail(params.id)
+
+    return await modelo.delete()
   }
 }
 

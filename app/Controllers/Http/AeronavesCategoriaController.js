@@ -92,6 +92,9 @@ class AeronavesCategoriaController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const aeronavescategoria = await AeronavesCategoria.findOrFail(params.id)
+
+    return await aeronavescategoria.delete()
   }
 }
 

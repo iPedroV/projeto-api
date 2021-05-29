@@ -44,6 +44,8 @@ class FabricanteController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposFabricante()
   }
 
   /**
@@ -56,7 +58,9 @@ class FabricanteController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
-    return await Fabricante.findOrFail(params.id);
+    //return await Fabricante.findOrFail(params.id);
+
+    return await Fabricante.query().with('aeronaves').where('id', params.id).first()
   }
 
   /**
@@ -80,6 +84,8 @@ class FabricanteController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
+    //getCamposFabricante()
   }
 
   /**
@@ -91,6 +97,9 @@ class FabricanteController {
    * @param {Response} ctx.response
    */
   async destroy ({ params, request, response }) {
+    const fabricante = await Fabricante.findOrFail(params.id)
+
+    return await fabricante.delete()
   }
 }
 
