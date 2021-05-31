@@ -45,6 +45,10 @@ class AeronavesCategoriaController {
    * @param {Response} ctx.response
    */
   async store ({ request, response }) {
+    const dados = AeronavesCategoria.getCamposAeronavesCategoria()
+    const aeronavescategoria = request.only(dados)
+
+    return await AeronavesCategoria.create(aeronavescategoria)
   }
 
   /**
@@ -81,6 +85,15 @@ class AeronavesCategoriaController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    const aeronavescategoria = await AeronavesCategoria.findOrFail(params.id)
+
+    const campos = AeronavesCategoria.getCamposAeronavesCategoria()
+    const dados = request.only(campos)
+
+    aeronavescategoria.merge(dados)
+    await aeronavescategoria.save()
+
+    return aeronavescategoria
   }
 
   /**

@@ -48,6 +48,10 @@ class ClienteController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposCliente()
+    const dados = Cliente.getCamposCliente()
+    const cliente = request.only(dados)
+
+    return await Cliente.create(cliente)
   }
 
   /**
@@ -88,6 +92,15 @@ class ClienteController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposCliente()
+    const cliente = await Cliente.findOrFail(params.id)
+
+    const campos = Cliente.getCamposCliente()
+    const dados = request.only(campos)
+
+    cliente.merge(dados)
+    await cliente.save()
+
+    return cliente
   }
 
   /**

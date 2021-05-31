@@ -49,6 +49,10 @@ class AeroportoController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposAeroporto()
+    const dados = Aeroporto.getCamposAeroporto()
+    const aeroporto = request.only(dados)
+
+    return await Aeroporto.create(aeroporto)
   }
 
   /**
@@ -93,6 +97,15 @@ class AeroportoController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposAeroporto()
+    const aeroporto = await Aeroporto.findOrFail(params.id)
+
+    const campos = Aeroporto.getCamposAeroporto()
+    const dados = request.only(campos)
+
+    aeroporto.merge(dados)
+    await aeroporto.save()
+
+    return aeroporto
   }
 
   /**

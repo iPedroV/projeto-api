@@ -48,6 +48,10 @@ class ModeloController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposModelo()
+    const dados = Modelo.getCamposModelo()
+    const modelo = request.only(dados)
+
+    return await Modelo.create(modelo)
   }
 
   /**
@@ -88,6 +92,15 @@ class ModeloController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposModelo()
+    const modelo = await Modelo.findOrFail(params.id)
+
+    const campos = Modelo.getCamposModelo()
+    const dados = request.only(campos)
+
+    modelo.merge(dados)
+    await modelo.save()
+
+    return modelo
   }
 
   /**

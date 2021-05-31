@@ -47,6 +47,10 @@ class EstadoController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposEstado()
+    const dados = Estado.getCamposEstado()
+    const estado = request.only(dados)
+
+    return await Estado.create(estado)
   }
 
   /**
@@ -87,6 +91,15 @@ class EstadoController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposEstado()
+    const estado = await Estado.findOrFail(params.id)
+
+    const campos = Estado.getCamposEstado()
+    const dados = request.only(campos)
+
+    estado.merge(dados)
+    await estado.save()
+
+    return estado
   }
 
   /**

@@ -47,6 +47,10 @@ class FreteController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposFrete()
+    const dados = Frete.getCamposFrete()
+    const frete = request.only(dados)
+
+    return await Frete.create(frete)
   }
 
   /**
@@ -92,6 +96,15 @@ class FreteController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposFrete()
+    const frete = await Frete.findOrFail(params.id)
+
+    const campos = Frete.getCamposFrete()
+    const dados = request.only(campos)
+
+    frete.merge(dados)
+    await frete.save()
+
+    return frete
   }
 
   /**

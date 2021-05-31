@@ -47,6 +47,11 @@ class AeronaveController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposAeronave()
+
+    const dados = Aeronave.getCamposAeronave()
+    const aeronave = request.only(dados)
+
+    return await Aeronave.create(aeronave)
   }
 
   /**
@@ -93,6 +98,16 @@ class AeronaveController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados!
     //getCamposAeronave()
+
+    const aeronave = await Aeronave.findOrFail(params.id)
+
+    const campos = Aeronave.getCamposAeronave()
+    const dados = request.only(campos)
+
+    aeronave.merge(dados)
+    await aeronave.save()
+
+    return aeronave
   }
 
   /**

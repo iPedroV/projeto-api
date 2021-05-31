@@ -7,12 +7,12 @@ class Aeronave extends ValidatorAbstract {
     return {
       nome: 'required|max:45',
       capacidade:'integer',
-      autonomia:'required|decimal|min:2|max:15',
-      horas_voo:'required|decimal|min:2|max:15',
+      autonomia:'required|number|min:2|max:15',
+      horas_voo:'required|number|min:2|max:15',
       fabricacao:'required|date',
       ultima_revisao:'required|date',
       modelo_id: 'required|integer',
-      marca_id:'required|integer'
+      fabricante_id:'required|integer'
     }
   }
   async fails (errorMessages) {

@@ -49,6 +49,10 @@ class CategoriaController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposCategoria()
+    const dados = Categoria.getCamposCategoria()
+    const categoria = request.only(dados)
+
+    return await Categoria.create(categoria)
   }
 
   /**
@@ -89,6 +93,15 @@ class CategoriaController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposCategoria()
+    const categoria = await Categoria.findOrFail(params.id)
+
+    const campos = Categoria.getCamposCategoria()
+    const dados = request.only(campos)
+
+    categoria.merge(dados)
+    await categoria.save()
+
+    return categoria
   }
 
   /**

@@ -46,6 +46,10 @@ class FabricanteController {
   async store ({ request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposFabricante()
+    const dados = Fabricante.getCamposFabricante()
+    const fabricante = request.only(dados)
+
+    return await Fabricante.create(fabricante)
   }
 
   /**
@@ -86,6 +90,15 @@ class FabricanteController {
   async update ({ params, request, response }) {
     //Use o método abaixo na hora de pegar os dados! Como possui só um campo, pode fazer sem se quiser
     //getCamposFabricante()
+    const fabricante = await Fabricante.findOrFail(params.id)
+
+    const campos = Fabricante.getCamposFabricante()
+    const dados = request.only(campos)
+
+    fabricante.merge(dados)
+    await fabricante.save()
+
+    return fabricante
   }
 
   /**
